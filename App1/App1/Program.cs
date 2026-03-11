@@ -7,3 +7,17 @@ Console.WriteLine("Second new feature!!");
 
 
 Console.WriteLine("New main feature!");
+
+//Zad2
+public static class StatisticsHelper
+{
+    public static double Average(Double a, Double b)
+    {
+        return (a + b)/2;
+    }
+    public static double Divide(Double a, Double b)
+    {
+        return a / b;
+    }
+    
+}
