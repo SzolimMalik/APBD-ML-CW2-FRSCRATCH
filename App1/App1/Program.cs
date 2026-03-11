@@ -17,7 +17,15 @@ public static class StatisticsHelper
     }
     public static double Divide(Double a, Double b)
     {
-        return a / b;
+        try
+        {
+            return a / b;
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("ERROR: Division by zero!");
+            return 0;
+        }
     }
     
 }
