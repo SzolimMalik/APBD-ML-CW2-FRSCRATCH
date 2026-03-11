@@ -32,5 +32,19 @@ public static class StatisticsHelper
         string aStr = a.ToString();
         return aStr + " " + b;
     }
+    public static int PowerOfTwo(int a)
+    {
+        int c = 2;
+        for (int b = 0; b != a; b++)
+        {
+            c *= 2;
+        }
+
+        if (a == 0)
+        {
+            c /= 2;
+        }
+        return c;
+    }
     
 }
