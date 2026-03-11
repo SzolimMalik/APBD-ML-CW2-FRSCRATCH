@@ -11,11 +11,11 @@ Console.WriteLine("New main feature!");
 //Zad2
 public static class StatisticsHelper
 {
-    public static double Average(Double a, Double b)
+    public static double Average(double a, double b)
     {
         return (a + b)/2;
     }
-    public static double Divide(Double a, Double b)
+    public static double Divide(double a, double b)
     {
         try
         {
@@ -26,6 +26,11 @@ public static class StatisticsHelper
             Console.WriteLine("ERROR: Division by zero!");
             return 0;
         }
+    }
+    public static string Concat(double a, string b)
+    {
+        string aStr = a.ToString();
+        return aStr + " " + b;
     }
     
 }
