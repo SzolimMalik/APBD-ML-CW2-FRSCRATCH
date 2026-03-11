@@ -46,5 +46,14 @@ public static class StatisticsHelper
         }
         return c;
     }
-    
+
+    public static double CalculateAverage(int[] values)
+    {
+        double sum = 0.0;
+        foreach (int value in values)
+        {
+            sum += value;
+        }
+        return sum / values.Length;
+    }
 }
