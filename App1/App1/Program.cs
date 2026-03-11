@@ -49,6 +49,11 @@ public static class StatisticsHelper
 
     public static double CalculateAverage(int[] values)
     {
+        if (values.Length == 0)
+        {
+            Console.WriteLine("ERROR: Empty array!");
+            return 0;
+        }
         double sum = 0.0;
         foreach (int value in values)
         {
