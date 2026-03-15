@@ -110,6 +110,7 @@ public static class StatisticsHelper
                 min = value;
             }
         }
+        Console.WriteLine("Finished!");
         return min;
     }
 }
