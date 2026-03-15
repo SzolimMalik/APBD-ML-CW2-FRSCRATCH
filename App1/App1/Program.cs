@@ -113,4 +113,9 @@ public static class StatisticsHelper
         Console.WriteLine("Finished!");
         return min;
     }
+    //This is where conficts begin...
+    public static void ConflictMaker(int[] values)
+    {
+        Console.WriteLine("This message is common in both branches!!");
+    }
 }
