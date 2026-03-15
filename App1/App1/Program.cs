@@ -117,5 +117,7 @@ public static class StatisticsHelper
     public static void ConflictMaker(int[] values)
     {
         Console.WriteLine("This message is common in both branches!!");
+        Console.WriteLine("I'm the main branch!");
+        Console.WriteLine("I should be the one to speak!");
     }
 }
