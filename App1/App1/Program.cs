@@ -119,5 +119,7 @@ public static class StatisticsHelper
         Console.WriteLine("This message is common in both branches!!");
         Console.WriteLine("I'm the main branch!");
         Console.WriteLine("I should be the one to speak!");
+        Console.WriteLine("I'm the conflict branch!");
+        Console.WriteLine("I wanna say something too, but main won't let me!");
     }
 }
