@@ -97,7 +97,11 @@ public static class StatisticsHelper
     }
     public static double CalculateMin(int[] values)
     {
-        
+        if (values.Length == 0)
+        {
+            Console.WriteLine("ERROR: Empty array!");
+            return 0;
+        }
         int min = values[0];
         foreach (int value in values)
         {
